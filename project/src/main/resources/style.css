@@ -1,0 +1,205 @@
+@font-face {
+    src: url('roboto.ttf');
+}
+
+.jfx-decorator {
+    -fx-decorator-color: #1D35B4;
+}
+
+.jfx-decorator .jfx-decorator-buttons-container {
+    -fx-background-color: #1D35B4;
+}
+
+.jfx-decorator .resize-border {
+    -fx-border-width: 0;
+}
+
+.label,
+.button,
+.jfx-text-field,
+.tooltip {
+    -fx-font-family: 'Roboto';
+}
+
+#background {
+    -fx-background-color: #FFFFFF;
+}
+
+#side-pane {
+    -fx-font-size: 17;
+    -fx-text-fill: #1D35B4;
+    -fx-padding: 25;
+    -fx-border-color: #FFFFFF;
+}
+
+#node-label {
+    -fx-font-size: 20;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 0;
+}
+
+#title {
+    -fx-font-size: 21;
+    -fx-text-fill: #000000;
+}
+
+#subtitle {
+    -fx-font-size: 17.5;
+    -fx-text-fill: #000000;
+    -fx-padding: 0 0 25 0;
+}
+
+#nodes-header {
+    -fx-font-size: 17;
+    -fx-text-fill: #1D35B4;
+}
+
+#min-nodes {
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+    -fx-padding: 30 0 0 0;
+    -fx-border-insets: 30 0 0 0;
+    -fx-background-insets: 30 0 0 0;
+}
+
+#max-nodes {
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+    -fx-padding: 35 0 0 0;
+    -fx-border-insets: 30 0 0 0;
+    -fx-background-insets: 30 0 0 0;
+}
+
+#run-button {
+    -fx-font-size: 18;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 35 85 23 85;
+    -fx-border-insets: 30 0 18 0;
+    -fx-background-insets: 30 0 18 0;
+    -fx-background-color: #1D35B4;
+}
+
+#info-header {
+    -fx-font-size: 17;
+    -fx-text-fill: #1D35B4;
+    -fx-padding: 10 0 0 0;
+}
+
+#info-num {
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+    -fx-padding: 10 0 0 0;
+}
+
+#path-header {
+    -fx-font-size: 17;
+    -fx-text-fill: #1D35B4;
+    -fx-padding: 20 0 5 0;
+}
+
+#shortest-path {
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+    -fx-padding: 0;
+}
+
+#shortest-path-weight {
+    -fx-font-size: 17;
+    -fx-text-fill: #808080;
+    -fx-padding: 5 0 0 0;
+}
+
+.scroll-pane {
+    -fx-padding: 0;
+    -fx-font-size: 13;
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-background-color: #FFFFFF;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical,
+.increment-button,
+.decrement-button,
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-background-color: #FFFFFF;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-radius: 3;
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-background-color: #E0E0E0;
+}
+
+#path-list-index {
+    -fx-font-size: 16;
+    -fx-text-fill: #808080;
+    -fx-padding: 4 0 0 0;
+}
+
+#path-list-item {
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+    -fx-padding: 3 0 0 0;
+}
+
+#path-list-item-weight {
+    -fx-font-size: 17;
+    -fx-text-fill: #808080;
+    -fx-padding: 3 0 13 0;
+}
+
+#about-button {
+    -fx-font-size: 17;
+    -fx-text-fill: #1D35B4;
+    -fx-padding: 7 76 5 76;
+    -fx-border-color: #1D35B4;
+    -fx-border-radius: 3;
+    -fx-border-width: 1.5;
+    -fx-border-insets: 27 0 0 0;
+    -fx-background-insets: 27 0 0 0;
+    -fx-background-color: #FFFFFF;
+}
+
+#about-header {
+    -fx-font-size: 20;
+    -fx-text-fill: #1D35B4;
+    -fx-padding: 5;
+}
+
+#about-text {
+    -fx-font-size: 17;
+    -fx-text-fill: #000000;
+    -fx-padding: 5;
+    -fx-text-alignment: justify;
+}
+
+#about-names {
+    -fx-font-size: 16;
+    -fx-text-fill: #808080;
+    -fx-padding: 5;
+}
+
+#about-close-button {
+    -fx-font-size: 17;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5 50 30 50;
+    -fx-border-insets: 0 20 25 20;
+    -fx-background-insets: 0 20 25 20;
+    -fx-background-color: #1D35B4;
+}
+
+.tooltip {
+    -fx-font-size: 16;
+    -fx-text-fill: #1D35B4;
+    -fx-padding: 7;
+    -fx-background-radius: 3;
+    -fx-background-color: #FFFFFF;
+    -fx-show-duration: indefinite;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 3);
+}
